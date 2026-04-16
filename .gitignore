@@ -1,0 +1,30 @@
+/target
+**/*.rs.bk
+*.pdb
+.env
+.env.local
+Cargo.lock
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+*.swo
+
+# Logs
+.acode/logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Environment
+.env.local
+.env.*.local
+
+# Subprojects (managed separately)
+gstack/
+todo_app/
+todo_app.py/
+conductor/
